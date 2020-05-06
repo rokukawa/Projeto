@@ -1,0 +1,108 @@
+body{
+	background-color:#008B8B;
+}
+header{
+	height:100px;
+}
+footer{
+	clear:both;
+	text-align:center;
+	border-top:2px solid black;
+	height:50px;
+}
+footer p{
+	padding-top:5px;
+	margin:0px;
+}
+#menu{
+	display:block;
+}
+#menu ul{
+	position:absolute;
+	list-style:none;
+	top:0px;
+	right:300px;
+}
+#menu a{
+	color:black;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:20px;
+}
+#menu li{
+	display:inline-block;
+	padding:10px;
+	margin:5px;
+}
+#interface{
+	width:1000px;
+	background-color:#00CDCD;
+	margin: -22px auto 0px auto;
+}
+#cabecalho{
+	height:140px;
+	border-bottom:2px solid black;
+}
+#cabecalho h1{
+	padding-top:20px;
+	text-indent: 30px;
+	font-size: 50px;
+}
+#esquerda{
+	float:left;
+	width:450px;
+}
+#texto{
+	text-align: justify;
+}
+#texto h1{
+	font-weight: bold;
+	font-size: 30px;
+	text-indent:30px;
+	margin-top:40px;
+}
+#texto p{
+	text-indent:30px;
+	padding-left: 30px;
+	font-size:15pt;
+}
+#direita{
+	float:right;
+	width:450px;
+}
+#imagem{
+	margin-top: 100px;
+	margin-left: 70px;
+}
+#lampada-java{
+	margin-top:50px;
+	margin-left:120px;
+}
+#tamanho{
+	height:800px;
+}
+#caixinha{
+	display: block;
+	margin-left:30px;
+}
+#role{
+	float:left;
+	width:200px;
+	height: 100px;
+	margin-top: 100px;
+	border:2px solid black;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+#click{
+	float:right;
+	width:200px;
+	height: 96px;
+	margin-top: 100px;
+	border:2px solid black;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+	background-color: white;
+}
+#luz{
+	border:2px solid black;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
