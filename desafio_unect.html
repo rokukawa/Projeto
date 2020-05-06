@@ -3,47 +3,63 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Desafio aceito</title>
-		<link rel="stylesheet" style="text/css" href="atributos css/desafio_unect.css">
+		<link rel="stylesheet" style="text/css" href="desafio_unect.css">
+		<script>
+			function acendeLampada(){
+				document.getElementById("luz").src="imagens/lampada-acesa.png"
+			}
+			function apagaLampada(){
+				document.getElementById("luz").src="imagens/lampada-apagada.png"
+			}
+		</script>
 	</head>
 
 	<body>
-		<header>
-			<div id="titulo">
+		<div id="interface">
+			<header id="cabecalho">
 				<h1>Desafio aceito</h1>
-			</div>
-			<div id="opcao">
-				<a href="#">Home</a>
-				<a href="#">Portfolio</a>
-				<a href="#">Quem somo</a>
-			</div>
-		</header>
+				<div id="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Quem somo</a></li>
+					</ul>
+				</div>
+			</header>
+			<div id="tamanho">
+				<section id="esquerda">
+					<div id="texto">
+						<h1>Texto aleatorio</h1>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p>
+					</div>
+					<div id="caixinha">
+						<select id="role">
+							<option value="1">Primeira opcao</option>
+							<option value="2">Segunda opcao</option>
+							<option value="3">Terceira opcao</option>
+						</select>
+						
+						<div id="click">
+							<input type="checkbox" name="chk1" value="1">Primeira opcao<br>
+							<input type="checkbox" name="chk1" value="2">Segunda opcao<br>
+							<input type="checkbox" name="chk1" value="3">Terceira opcao<br>
+						</div>
+					</div>
+				</section>
 
-		<div id="segundo">
-			<div id="imagem">
-				<img src="imagens/desafio_unect.png">	
+				<aside id="direita">
+					<div id="imagem">
+						<img src="imagens/desafio_unect.png">	
+					</div>
+					<div id="lampada-java">
+						<img id="luz" src="imagens/lampada-apagada.png" onmousemove="acendeLampada()" onmouseout="apagaLampada()">
+					</div>
+				</aside>
 			</div>
-			<div id="texto">
-				<h2>Texto aleatorio</h2>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-			</div>
-			<div id="caixinha">
-				<label>Selecione</label>
-				<select>
-					<option value="1">Primeira opcao</option>
-					<option value="2">Segunda opcao</option>
-					<option value="3">Terceira opcao</option>
-				</select><br>
-				<br>
-				<input type="checkbox" name="chk1" value="1">Primeira opcao<br>
-				<input type="checkbox" name="chk1" value="2">Segunda opcao<br>
-				<input type="checkbox" name="chk1" value="3">Terceira opcao<br>
-			</div>
+			<footer>	
+					<p>&copy Gustavo Rokukawa.</p>
+					<p><a href="http:/instagram.com/gustavorokukawa" target="_blank">Instagram</a></p>
+			</footer>
 		</div>
-
-		<footer>
-			<div id="terceiro">
-				&copy Gustavo Rokukawa.
-			</div>
-		</footer>
 	</body>
 </head>
