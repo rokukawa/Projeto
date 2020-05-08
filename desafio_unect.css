@@ -29,10 +29,14 @@ footer p{
 	font-weight:bold;
 	font-size:20px;
 }
+#menu a:hover{
+	color:white;
+}
 #menu li{
 	display:inline-block;
 	padding:10px;
 	margin:5px;
+	background-color:#008B8B;
 }
 #interface{
 	width:1000px;
@@ -42,6 +46,7 @@ footer p{
 #cabecalho{
 	height:140px;
 	border-bottom:2px solid black;
+	color:white;
 }
 #cabecalho h1{
 	padding-top:20px;
@@ -54,6 +59,7 @@ footer p{
 }
 #texto{
 	text-align: justify;
+	color:white;
 }
 #texto h1{
 	font-weight: bold;
@@ -101,6 +107,10 @@ footer p{
 	border:2px solid black;
 	box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 	background-color: white;
+}
+#click input{
+	margin-top:10px;
+	margin-left:10px;
 }
 #luz{
 	border:2px solid black;

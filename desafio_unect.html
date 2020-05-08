@@ -4,14 +4,7 @@
 		<meta charset="utf-8">
 		<title>Desafio aceito</title>
 		<link rel="stylesheet" style="text/css" href="desafio_unect.css">
-		<script>
-			function acendeLampada(){
-				document.getElementById("luz").src="imagens/lampada-acesa.png"
-			}
-			function apagaLampada(){
-				document.getElementById("luz").src="imagens/lampada-apagada.png"
-			}
-		</script>
+		<script src="javascript/desafio_unect.js"></script>
 	</head>
 
 	<body>
@@ -52,7 +45,7 @@
 						<img src="imagens/desafio_unect.png">	
 					</div>
 					<div id="lampada-java">
-						<img id="luz" src="imagens/lampada-apagada.png" onmousemove="acendeLampada()" onmouseout="apagaLampada()">
+						<img id="luz" src="imagens/lampada-apagada.png" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')">
 					</div>
 				</aside>
 			</div>
