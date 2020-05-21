@@ -1,0 +1,138 @@
+body{
+    background-color:#ADD8E6;
+}
+.interface{
+    width:1200px;
+    margin:0 auto;
+}
+#img-cabecalho{
+    position:absolute;
+    width:85px;
+    height:35px;
+    margin-top:10px;
+    margin-left:7px;
+}
+#cabecalho{
+    display:block;
+    height:60px;
+    border-radius:10px;
+}
+#cabecalho ul{
+    display:inline-block;
+    margin-left:100px;
+    margin-top:20px;
+}
+#cabecalho li{
+    display:inline-block;
+}
+#cabecalho a{
+    text-decoration:none;
+    color:white;
+    padding:8px;
+    background-color:#1E90FF;
+    margin: 0px 5px 0px 0px;
+    border-radius:5px;
+}
+#cabecalho a:hover{
+    background-color:rgba(60,60,60,0.5);
+}
+#pesquisa{
+    float:right;
+    margin-top:22px;
+}
+#caixa-pesq{
+    width:220px;
+    border:2px solid rgba(80,80,80,0.5);
+    padding:2px;
+}
+#botao{
+    border:2px solid rgba(80,80,80,0.5);
+    padding:2px 7px;
+}
+#img-perfil{
+    width:199px;
+    height:170px;
+    box-shadow: 1px 1px 0px rgba(80,80,80,0.6);
+    border-radius:2px;
+}
+#block-1{
+    display:block;
+    float:left;
+    width:200px;
+    padding:1px 0px 1px 0px;
+}
+#block-1 p{
+    border:1px solid white;
+}
+#block-1 p:hover{
+    border:1px solid #606060;
+    background-color:#dddddd;
+}
+#esquerda{
+    width:199px;
+    background-color:white;
+    margin-top:10px;
+    border:1px solid #808080;
+    box-shadow: 1px 1px 0px rgba(80,80,80,0.6);
+    border-radius:2px;
+}
+#esquerda h1{
+    padding-left:5px;
+}
+#esquerda p{
+    font-family:bolder;
+    text-indent: 5px;
+    text-decoration: none;
+    color:#dddddd;
+}
+#esquerda a{
+    text-decoration: none;
+    color:black;
+}
+#esquerda select{
+    width:190px;
+    margin-left:5px;
+}
+#block-2{
+    display:block;
+    float:right;
+}
+#centro{
+    float:left;
+    width:698px;
+    background-color:white;
+    margin-right:10px;
+    margin-left:10px;
+    border:1px solid #808080;
+    box-shadow: 1px 1px 0px rgba(80,80,80,0.6);
+    border-radius:2px;
+}
+#borda{
+    width:673px;
+    height:112px;
+    margin:10px;
+    border:1px solid rgba(80,80,80,0.6);
+}
+#borda input{
+    border:none;
+    height:70px;
+    width:659px;
+    text-indent:10px;
+    margin:5px;
+}
+#borda button{
+    margin-left:10px;
+    margin-right:-7px;
+}
+#centro label{
+    padding-left:10px;
+}
+#direita{
+    float:right;
+    width:278px;
+    height:300px;
+    background-color:white;
+    border:1px solid #808080;
+    box-shadow: 1px 1px 0px rgba(80,80,80,0.6);
+    border-radius:2px;
+}
